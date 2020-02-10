@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: relearning
+Description: Description of relearning
+Version: 0.0.0
+Cflags: -I/root/catkin_ws/install/include
+Libs: -L/root/catkin_ws/install/lib -lrelearning
+Requires: roscpp rospy std_msgs message_runtime
