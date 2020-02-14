@@ -212,3 +212,7 @@ add_dependencies(talker relearning_generate_messages_cpp)
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
 add_dependencies(listener relearning_generate_messages_cpp)
+
+add_executable(middleMan src/middle-man.cpp)
+target_link_libraries(middleMan ${catkin_LIBRARIES})
+add_dependencies(middleMan relearning_generate_messages_cpp)

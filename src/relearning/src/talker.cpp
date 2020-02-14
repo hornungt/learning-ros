@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 
 	// create a publisher object to advertise(=publish) messages to the chatter topic
 	// with message queue size = 10, ie can hold 10 next messages to send
-	ros::Publisher chatter_pub = n.advertise<relearning::Custom>("chatter", 10);
+	ros::Publisher chatter_pub = n.advertise<relearning::Custom>("topic1", 10);
 
 	// specifies the rate at which the main() method is called to run
 	// which means the rate at which the node executes
